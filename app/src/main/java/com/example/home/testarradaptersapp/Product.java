@@ -8,7 +8,7 @@ public class Product {
     private String name, unit;
     private int count;
 
-    Product(String name, int count, String unit){
+    Product(String name, String unit){
         this.name = name;
         this.count = 0;
         this.unit = unit;
