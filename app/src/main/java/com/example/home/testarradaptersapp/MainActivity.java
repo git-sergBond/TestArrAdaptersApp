@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*if(products.size() == 0){
+        if(products.size() == 0){
             products.add(new Product("Картофель", "кг."));
             products.add(new Product("Чай", "шт."));
             products.add(new Product("Яйца", "шт."));
@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
         setContentView(R.layout.activity_main);
-        productList = (ListView)findViewById(R.id.productList);
+        productList = (ListView)findViewById(R.id.cities);
         ProductAdapter adapter = new ProductAdapter(this,R.layout.list_item,products);
         productList.setAdapter(adapter);
-
+/*
 
         Spinner spinner = (Spinner) findViewById(R.id.cities);
         // Создаем адаптер ArrayAdapter с помощью массива строк и стандартной разметки элемета spinner
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         AutoCompleteTextView textComplete = (AutoCompleteTextView)findViewById(R.id.automplite);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.support_simple_spinner_dropdown_item,cities);
         textComplete.setAdapter(adapter);
-  */
+        */
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
