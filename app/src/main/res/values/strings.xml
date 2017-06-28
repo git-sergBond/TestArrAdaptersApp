@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TestArrAdaptersApp</string>
+    <string-array name="catlist">
+        <item>Барсик</item>
+        <item>Мурзик</item>
+        <item>Васька</item>
+        <item>Рыжик</item>
+    </string-array>
 </resources>
