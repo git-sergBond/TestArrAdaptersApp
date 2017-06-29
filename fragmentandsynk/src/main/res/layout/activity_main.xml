@@ -11,16 +11,22 @@
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/actLayout"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <fragment
             android:id="@+id/listFragment"
-            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:name="com.example.fragmentandsynk.ContentFragment"
-            >
-
-        </fragment>
+            android:name="com.example.fragmentandsynk.ListFrag"
+            />
+        <fragment
+            android:id="@+id/contentFragment"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:name="com.example.fragmentandsynk.ContFrag"
+            />
     </LinearLayout>
 </RelativeLayout>
